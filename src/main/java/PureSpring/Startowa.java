@@ -1,5 +1,5 @@
-import MyPackage.BeanA;
-import MyPackage.BeanB;
+package PureSpring;
+
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
@@ -9,7 +9,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Startowa {
     public static void main(String[] args) {
-        ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("my-spring-config.xml");
+        ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("pure-spring-config.xml");
 //        BeanA beanA = ctx.getBean(BeanA.class);
 //        System.out.println(beanA.getU());
         BeanB beanB = ctx.getBean(BeanB.class);

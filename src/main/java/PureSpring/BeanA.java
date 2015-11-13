@@ -1,4 +1,4 @@
-package MyPackage;
+package PureSpring;
 import org.springframework.stereotype.Component;
 
 /**
